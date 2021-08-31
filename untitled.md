@@ -266,7 +266,7 @@ So if linked lists are so great, why do we usually store strings in an array? **
 
 Lookups with a linked list are more of a process, because we have no way of knowing where the ith node is in memory. So we have to walk through the linked list node by node, counting as we go, until we hit the ith item.
 
-def get\_ith\_item\_in\_linked\_list\(head, i\): if i &lt; 0: raise ValueError\(“i can’t be negative: %d” % i\) current\_node = head current\_position = 0 while current\_node: if current\_position == i: \# Found it! return current\_node \# Move on to the next node current\_node = current\_node.next current\_position += 1 raise ValueError\(‘List has fewer than i + 1 \(%d\) nodes’ % \(i + 1\)\)
+def get_ith_item_in_linked_list\(head, i\): if i &lt; 0: raise ValueError\(“i can’t be negative: %d” % i\) current_node = head current_position = 0 while current_node: if current_position == i: \# Found it! return current_node \# Move on to the next node current_node = current_node.next current_position += 1 raise ValueError\(‘List has fewer than i + 1 \(%d\) nodes’ % \(i + 1\)\)
 
 That’s i + 1 steps down our linked list to get to the ith node \(we made our function zero-based to match indices in arrays\). **So linked lists have -time lookups.** Much slower than the -time lookups for arrays and dynamic arrays.
 
@@ -328,7 +328,7 @@ This data structure is called a **hash table** or **hash map**. In our hash tabl
 
 1. To the left the array is the word “lies,” labeled as the key, with an
 
-arrow pointing to the right at diamond with a question mark in the middle, labeled as the hashing function. The diamond points to the 9th index of the array.\]\([https://www.interviewcake.com/images/svgs/cs\_for\_hackers\_\_hash\_tables\_lies\_key\_labeled.svg?bust=209](https://www.interviewcake.com/images/svgs/cs_for_hackers__hash_tables_lies_key_labeled.svg?bust=209)\)
+arrow pointing to the right at diamond with a question mark in the middle, labeled as the hashing function. The diamond points to the 9th index of the array.\]\([https://www.interviewcake.com/images/svgs/cs_for_hackers\_\_hash_tables_lies_key_labeled.svg?bust=209](https://www.interviewcake.com/images/svgs/cs_for_hackers__hash_tables_lies_key_labeled.svg?bust=209)\)
 
 The hashing functions used in modern systems get pretty complicated — the one we used here is a simplified example.
 
@@ -374,13 +374,13 @@ Breadth-first search is often compared with **depth-first search**.
 
 Advantages:
 
-* A BFS will find the **shortest path** between the starting point and
+- A BFS will find the **shortest path** between the starting point and
 
 any other reachable node. A depth-first search will not necessarily find the shortest path.
 
 Disadvantages
 
-* A BFS on a binary tree _generally_ requires more memory than a DFS.
+- A BFS on a binary tree _generally_ requires more memory than a DFS.
 
 ![](https://cdn-images-1.medium.com/max/800/0*1ptw-98Yjj1scRX6)\#\#\# Binary Search Tree
 
@@ -399,7 +399,7 @@ Binary trees have a few interesting properties when they’re perfect:
 
 ![](https://cdn-images-1.medium.com/max/800/0*r1nTqbN_TJyaaT4L)**Property 2: the number of nodes on the last level is equal to the sum of the number of nodes on all other levels \(plus 1\).** In other words, about _half_ of our nodes are on the last level.
 
-&lt;==\(_\_Let’s call the number of nodes n, \*\*\)==&gt;
+&lt;==\(\_\_Let’s call the number of nodes n, \*\*\)==&gt;
 
 &lt;==\(**\_**and the height of the tree h. **\_**\)==&gt;
 
@@ -425,9 +425,9 @@ Why only up to 2^{h-1}?
 
 Notice that we **started counting our levels at 0.**
 
-* So if we have h levels in total,
-* the last level is actually the “h-1”-th level.
-* That means the number of nodes on the last level is 2^{h-1}.
+- So if we have h levels in total,
+- the last level is actually the “h-1”-th level.
+- That means the number of nodes on the last level is 2^{h-1}.
 
 But we can simplify.
 
@@ -435,8 +435,8 @@ But we can simplify.
 
 **so we can just take the number of nodes on the last level, multiply it by 2, and subtract 1 to get the number of nodes overall**.
 
-* We know the number of nodes on the last level is 2^{h-1},
-* So:
+- We know the number of nodes on the last level is 2^{h-1},
+- So:
 
 **n = 2^{h-1} \* 2–1  
 n = 2^{h-1} \* 2¹ — 1  
@@ -485,11 +485,11 @@ To understand binary, let’s take a closer look at how decimal numbers work. Ta
 
 ![](https://cdn-images-1.medium.com/max/800/0*BHTYqymE77CnzKpP)Notice how the _places_ in base 10 \(ones place, tens place, hundreds place, etc.\) are _sequential powers of 10_:
 
-* 10⁰=1 \* 10¹=10 \* 10²=100 \* 10³=1000 \* etc.
+- 10⁰=1 \* 10¹=10 \* 10²=100 \* 10³=1000 \* etc.
 
 **The places in** _**binary**_ **\(base 2\) are sequential powers of** _**2**_**:**
 
-* 2⁰=1 \* 2¹=2 \* 2²=4 \* 2³=8 \* etc.
+- 2⁰=1 \* 2¹=2 \* 2²=4 \* 2³=8 \* etc.
 
 So let’s take that same “101” but this time let’s read it as a _binary_ number:
 
@@ -498,11 +498,10 @@ So let’s take that same “101” but this time let’s read it as a _binary_ 
 ![](https://cdn-images-1.medium.com/max/800/0*bCIyxai2cNhILyxr)\#\#\# Discover More:
 
 [**Web-Dev-Hub**  
- _Memoization, Tabulation, and Sorting Algorithms by Example Why is looking at runtime not a reliable method of…_bgoonz-blog.netlify.app](https://bgoonz-blog.netlify.app/)
+ \_Memoization, Tabulation, and Sorting Algorithms by Example Why is looking at runtime not a reliable method of…\_bgoonz-blog.netlify.app](https://bgoonz-blog.netlify.app/)
 
 By [Bryan Guner](https://medium.com/@bryanguner) on [June 4, 2021](https://medium.com/p/660256c2e4e3).
 
 [Canonical link](https://medium.com/@bryanguner/data-structures-under-the-hood-660256c2e4e3)
 
 Exported from [Medium](https://medium.com) on August 6, 2021.
-

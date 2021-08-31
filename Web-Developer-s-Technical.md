@@ -1,9 +1,8 @@
-Web Developer’s Technical Glossary
-==================================
+# Web Developer’s Technical Glossary
 
 This will be a running list as I make updates!
 
-------------------------------------------------------------------------
+---
 
 ### Web Developer’s Technical Appendix
 
@@ -11,12 +10,12 @@ This will be a running list as I make updates!
 
 <figure><img src="https://cdn-images-1.medium.com/max/800/0*Cnf7R_30Pu8Wur3b.jpg" class="graf-image" /></figure>
 
-------------------------------------------------------------------------
+---
 
 <a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b"><strong>ALLOFMYOTHERARTICLES</strong><br />
 bryanguner.medium.com</a><a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
 
-------------------------------------------------------------------------
+---
 
 ### Update Terms:
 
@@ -46,8 +45,8 @@ ES stands for ECMAScript, which is the specification that JavaScript is based on
 
 Most browsers support at least ES5, and some even have ES6 (also known as ES2015) support. You can check each browser’s support (including yours) here:
 
--   <span id="280c"><a href="http://kangax.github.io/compat-table/es5/" class="markup--anchor markup--li-anchor" title="http://kangax.github.io/compat-table/es5/">ES5 support</a></span>
--   <span id="f676"><a href="http://kangax.github.io/compat-table/es6/" class="markup--anchor markup--li-anchor" title="http://kangax.github.io/compat-table/es6/">ES6 support</a></span>
+- <span id="280c"><a href="http://kangax.github.io/compat-table/es5/" class="markup--anchor markup--li-anchor" title="http://kangax.github.io/compat-table/es5/">ES5 support</a></span>
+- <span id="f676"><a href="http://kangax.github.io/compat-table/es6/" class="markup--anchor markup--li-anchor" title="http://kangax.github.io/compat-table/es6/">ES6 support</a></span>
 
 <a href="https://en.wikipedia.org/wiki/ECMAScript" class="markup--anchor markup--p-anchor" title="https://en.wikipedia.org/wiki/ECMAScript">ECMAScript</a>
 
@@ -59,7 +58,7 @@ Most browsers support at least ES5, and some even have ES6 (also known as ES2015
 
 ### Linter, linting, jslint, jshint
 
-A validation tool which checks for common issues in your JavaScript. You’d usually use this in your build process to enforce quality in your codebase. A great example of something to check for: *making sure you’ve always got your semicolons*.
+A validation tool which checks for common issues in your JavaScript. You’d usually use this in your build process to enforce quality in your codebase. A great example of something to check for: _making sure you’ve always got your semicolons_.
 
 <a href="http://jshint.com/docs/options/" class="markup--anchor markup--p-anchor" title="http://jshint.com/docs/options/">An example of some of the options you can configure</a>
 
@@ -73,8 +72,8 @@ Asynchronous calls typically return a promise (or deferred). This is an object w
 
 Ember makes use of these in places like the model hook for a route. Until the promise resolves, Ember is able to put the route into a “loading” state.
 
--   <span id="a026"><a href="https://promisesaplus.com/" class="markup--anchor markup--li-anchor" title="https://promisesaplus.com/">An open standard for sound, interoperable JavaScript promises</a></span>
--   <span id="f0eb"><a href="http://emberjs.com/guides/routing/asynchronous-routing/#toc_a-word-on-promises" class="markup--anchor markup--li-anchor" title="http://emberjs.com/guides/routing/asynchronous-routing/#toc_a-word-on-promises">emberjs.com — A word on promises</a></span>
+- <span id="a026"><a href="https://promisesaplus.com/" class="markup--anchor markup--li-anchor" title="https://promisesaplus.com/">An open standard for sound, interoperable JavaScript promises</a></span>
+- <span id="f0eb"><a href="http://emberjs.com/guides/routing/asynchronous-routing/#toc_a-word-on-promises" class="markup--anchor markup--li-anchor" title="http://emberjs.com/guides/routing/asynchronous-routing/#toc_a-word-on-promises">emberjs.com — A word on promises</a></span>
 
 ### SSR
 
@@ -88,7 +87,7 @@ When related to JavaScript, this can be part of your build process which “tran
 
 Besides ES6, you’ll see a lot of content about compiling/transpiling CoffeeScript, a short-hand language which can “compile” to JavaScript.
 
--   <span id="3730">Ember CLI specifically uses <a href="https://babeljs.io/" class="markup--anchor markup--li-anchor" title="https://babeljs.io/">Babel</a> via the <a href="https://github.com/babel/ember-cli-babel" class="markup--anchor markup--li-anchor" title="https://github.com/babel/ember-cli-babel">ember-cli-babel</a> plugin.</span>
+- <span id="3730">Ember CLI specifically uses <a href="https://babeljs.io/" class="markup--anchor markup--li-anchor" title="https://babeljs.io/">Babel</a> via the <a href="https://github.com/babel/ember-cli-babel" class="markup--anchor markup--li-anchor" title="https://github.com/babel/ember-cli-babel">ember-cli-babel</a> plugin.</span>
 
 ### Shadow DOM
 
@@ -96,14 +95,14 @@ Not to be confused with Virtual DOM. Shadow DOM is still a work in progress, but
 
 Creating a re-usable “widget” or control might be a good use-case for this. Browsers implement some of their controls using their own version of a shadow DOM.
 
--   <span id="0bcb"><a href="http://www.w3.org/TR/shadow-dom/" class="markup--anchor markup--li-anchor" title="http://www.w3.org/TR/shadow-dom/">W3C Working Draft</a></span>
--   <span id="df28"><a href="http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/" class="markup--anchor markup--li-anchor" title="http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/">What the Heck is Shadow DOM?</a></span>
+- <span id="0bcb"><a href="http://www.w3.org/TR/shadow-dom/" class="markup--anchor markup--li-anchor" title="http://www.w3.org/TR/shadow-dom/">W3C Working Draft</a></span>
+- <span id="df28"><a href="http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/" class="markup--anchor markup--li-anchor" title="http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/">What the Heck is Shadow DOM?</a></span>
 
 ### Virtual DOM
 
 Not to be confused with Shadow DOM. The concept of a virtual DOM means abstracting your code (or in our case, Ember) away from using the browser’s DOM in favor of a “virtual” DOM that can easily be accessed for read/writes or even serialized.
 
-------------------------------------------------------------------------
+---
 
 **Adaptive Web Design (AWD)** — encourages the creation of several versions of a  
 web page for a specified number of device dimensions. Which template to display  
@@ -316,7 +315,7 @@ designed to make things easier to read. The syntax makes the language “sweeter
 to use as things can be expressed more clearly or concisely. Something can be  
 considered “syntactic sugar” if it could be removed from the language without  
 removing any functionality on what the language can do. For example ternary  
-operators in Javascript: `x ? a : b` doesn't require the ternary operator syntax  
+operators in Javascript: `x ? a : b` doesn't require the ternary operator syntax  
 it could also be expressed with an `if/else` statement:
 
     if(x)
